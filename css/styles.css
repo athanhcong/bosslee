@@ -1,0 +1,70 @@
+header.senbei {
+  margin-bottom: 100px;
+}
+body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+      }
+
+      /* Custom logo */
+      #mylogo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        height:200px;
+        width:200px;
+      }
+
+      /* Custom container */
+      .container-narrow {
+        margin: 0 auto;
+        max-width: 700px;
+      }
+      .container-narrow > hr {
+        margin: 30px 0;
+      }
+
+a.glyph-permalink {
+  text-decoration: none;
+  color: #808080;
+  font-size: 100%;
+  margin-left: .5;
+  border: 0;
+  padding: 3px;
+  font-family: "Hiragino Kaku Gothic Pro", "Osaka", "Zapf Dingbats";
+}
+
+a.glyph-permalink:hover {
+  color: #aa0000;
+}
+
+div.date {
+  text-align: right;
+  font-size: 100%;
+}
+div.datepost {
+  font-size: 120%;
+}
+
+div.tweet {
+  margin-right:20;
+  margin-bottom:20;
+}
+
+div.footer-more {
+  margin: 20;
+}
+
+div.tags {
+  margin: 50;
+}
+
+hr {
+margin: 20px auto;
+border: 0;
+border-top: 1px solid #eee;
+border-bottom: 1px solid #fff;
+width: 50%;
+}

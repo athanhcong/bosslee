@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+	{% if page.post-link %}
+	<h1><a href="{{ page.post-link }}" title="External link">{{ page.title }}</a></h1>
+	<div class="datepost">{{ page.date | date_to_string }}</p>
+	{% else %}
+	<h1>{{ page.title }}</h1>
+	<div class="datepost">{{ page.date | date_to_string }}</p>
+	{% endif %}
+
+	<div class="tweet"
+	<!-- adding tweet sharing -->
+	<a href="https://twitter.com/share" class="twitter-share-button" data-via="leetucksing" data-size="large" data-count="none">Tweet</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+	</script>
+	<div>
+
+	<div class="lead">
+		{{ content }}
+	</div>
+
+	<!-- add tags listing -->
+	<div class="tags">
+		Tags:
+		{% for tag in page.tags %}
+		<a href="/tags/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>
+		{% if forloop.last != true %} &#149; {% endif %}
+    	{% endfor %} &#149;
+    </div>
+
+
