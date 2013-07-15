@@ -3,10 +3,16 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
+        
+        <title> 
+          {% if page.title %} 
+          {{ page.title }} | 
+          {% endif %} ideas, startup, life by @leetucksing 
+        </title>
+
         <meta name="viewport" content="width=device-width">
-        <meta name="description" content="">
-        <meta name="author" content="">
+        <meta name="description" content="Hi, I'm Bryan. I do startups and love writing about technology. When I'm free, I love to run marathons">
+        <meta name="author" content="lee tuck sing">
 
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
@@ -39,19 +45,32 @@
             <a href="/" title="Home">
               <img id="mylogo" src="/img/badcode.jpg" alt="Test Test">
             </a>
-            <p style="text-align:center;">
+            <p style="text-align:center">
               <strong>Test Test Test </strong>
               <br>
               Test Test Test And more Test <a href="http://getbootstrap.com" title="Love To Test">Test & Test</a>.
               <br>
+              <ul class="nav nav-pills">
+                <li><a href="#">about</a></li>
+                <li><a href="#">twitter</a></li>
+                <li><a href="#">podcasts</a></li>
+                <li><a href="#">projects</a></li>
+              </ul>
             </p>
             <hr>
           </header>
 
+
           {{ content }}
           <hr>
 
-          <div class="fotter-more">
+          <div class="footer-more">
+            <p>
+              Follow the bosslee 
+              <a href="http://feeds.feedburner.com/bybosslee">RSS feed</a> or 
+              <a href="https://twitter.com/leetucksing">
+              Twitter feed</a>
+            </p>
             <p>&copy; bybosslee 2013</p>
           </div>            
         </div> <!-- /container -->

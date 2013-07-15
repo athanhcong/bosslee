@@ -23,7 +23,8 @@ body {
         max-width: 700px;
       }
       .container-narrow > hr {
-        margin: 30px 0;
+        margin: 20px auto;
+        width: 50%;
       }
 
 a.glyph-permalink {
@@ -54,7 +55,9 @@ div.tweet {
 }
 
 div.footer-more {
-  margin: 20;
+  margin: 10 auto;
+  text-align: center;
+  font-size: 100%;
 }
 
 div.tags {
@@ -68,3 +71,4 @@ border-top: 1px solid #eee;
 border-bottom: 1px solid #fff;
 width: 50%;
 }
+
