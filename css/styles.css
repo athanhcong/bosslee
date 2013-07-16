@@ -50,8 +50,7 @@ div.datepost {
 }
 
 div.tweet {
-  margin-right:20;
-  margin-bottom:20;
+  margin: 10px 0px;
 }
 
 div.footer-more {
@@ -88,5 +87,9 @@ width: 50%;
 
 .nav-tabs, .nav-pills {
     text-align:center;
+}
+
+.lead {
+  margin-top: 10px;
 }
 
