@@ -48,6 +48,9 @@ a.glyph-permalink:hover {
 .post-card {
   padding: 12px 14px;
   border-radius: 6px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 30px;
 }
 
 .post-card:hover {
@@ -58,7 +61,7 @@ a.glyph-permalink:hover {
 
 div.date {
   text-align: center;
-  font-size: 100%;
+  font-size: 75%;
   color: #C0C0C0;
 }
 div.datepost {
@@ -113,13 +116,22 @@ width: 50%;
 }
 
 #bigtext {
-  font-size: 3.5em;
+  font-size: 2em;
   margin-top: 30px;
+  color: #333333;
+  border-bottom: none;
+  font-family: "Helvetica Neue", sans-serif;
+  letter-spacing: 11px;
+  text-transform: uppercase;
+  font-weight: 100;
+  line-height: 1.6em;
+  background: #fff882;
+  padding: 1em 1em 0.85em;
 }
 
 #bigsubtext {
-  max-width: 290px;
+  max-width: 310px;
   margin: 22px auto 28px;
-  text-align: centered;
+  text-align: center;
 }
 
