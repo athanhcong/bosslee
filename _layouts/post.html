@@ -21,11 +21,11 @@ layout: default
 		{{ content }}
 	</div>
 
-	<!-- add tags listing -->
-	<div class="tags">
-		Tags:
-		{% for tag in page.tags %}
-		<a href="/tags/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>
+	<!-- add category listing -->
+	<div class="category">
+		Categories:
+		{% for category in page.categories %}
+		<a href="/categories/{{ category }}" title="View posts tagged with &quot;{{ category }}&quot;">{{ category }}</a>
 		{% if forloop.last != true %} &#149; {% endif %}
     	{% endfor %} &#149;
     </div>
