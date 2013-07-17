@@ -18,8 +18,8 @@ task :np do
           'layout' => 'post',
           'published' => false,
           'title' => title,
-          'tags' => 'tech',
-          'post-link' =>'',
+          'tags' => false,
+          'post-link' => false,
         }
           )
       file.puts "---"
