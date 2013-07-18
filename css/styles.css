@@ -48,7 +48,7 @@ a.glyph-permalink:hover {
 .post-card {
   padding: 12px 14px;
   border-radius: 6px;
-  font-size: 21px;
+  font-size: 17px;
   font-weight: 200;
   line-height: 30px;
 }
@@ -114,6 +114,7 @@ width: 50%;
 
 .lead {
   margin-top: 10px;
+  font-size: 17px;
 }
 
 #bigtext {
