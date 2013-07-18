@@ -60,6 +60,7 @@ div.date {
   text-align: center;
   font-size: 100%;
   color: #C0C0C0;
+  margin-bottom: 15px;
 }
 div.datepost {
   text-align: center;
@@ -118,7 +119,7 @@ width: 50%;
 }
 
 #bigsubtext {
-  max-width: 290px;
+  max-width: 310px;
   margin: 22px auto 28px;
   text-align: centered;
 }
