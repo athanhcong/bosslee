@@ -3,3 +3,4 @@ description: This is where I collect my thoughts.
 url: http://bosslee.github.io/
 permalink: pretty
 pygments: true
+future: false
