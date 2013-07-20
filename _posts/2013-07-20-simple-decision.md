@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Simple decision
+post-link: http://feedproxy.google.com/%7Er/svbtle/%7E3/lX1TYvcrG7o/downward
 ---
 When I got out of college I knew nothing about software development. My entire college education prepared me to be a Chemical Engineer, but now I wanted to start a software company.
 
